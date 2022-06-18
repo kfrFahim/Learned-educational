@@ -1,0 +1,545 @@
+/******************** HEADER Section **********************/
+
+.header-wrapper {
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #ffffff;
+}
+
+.header-wrap {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* logo section */
+
+.logo-section-item {
+  width: 72px;
+  height: 70px;
+  cursor: pointer;
+}
+
+/* Nav and menu section */
+
+.nav-section ul li {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.study-nav-item {
+  color: #56cf8d;
+  border-bottom: 1px solid #56cf8d;
+}
+
+nav ul li a {
+  padding: 10px 20px;
+  color: #5a6e79;
+}
+
+/* apply button section */
+
+.apply-button-item {
+  padding: 12px 19px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f1f1f1;
+  color: #56cf8d;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Header section Meedia Qurey */
+
+/* @media only screen and (max-width: 767px){
+
+} */
+
+/************* SLIDE section ***************/
+
+.slide-section-wrapper {
+  width: 100%;
+  height: 500px;
+  background: url("../image/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  margin-bottom: 90px;
+  z-index: 5;
+}
+
+.slider-section-wrap {
+  width: 80%;
+  padding: 70px 0px;
+  margin: auto;
+}
+
+.visit-button {
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: #56cf8d;
+  color: #ffff;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  z-index: 5;
+}
+
+/* Slide section media query */
+
+@media only screen and (max-width: 767px) {
+  .slide-section-wrapper {
+    width: 60%;
+    height: 350px;
+    background: none;
+    margin: auto;
+  }
+  /* .slide-content{
+            width:200px;
+            text-align: center;
+            margin: auto;
+    } */
+
+  .slide-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+}
+
+/***************** SERVICE Section ***************/
+
+.service-section-wrapper {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.service-item-content {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 25px;
+}
+
+.service-item1 {
+  width: 230px;
+  height: 190px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.service-item1 img {
+  margin-top: 30px;
+}
+.service-item1 p {
+  margin-top: 20px;
+}
+
+/* service section media quary  */
+
+@media only screen and (max-width: 767px) {
+  .service-section-wrapper {
+    width: 90%;
+    margin: auto;
+  }
+  .service-item-content {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    margin-top: 20px;
+  }
+
+  .service-item1 {
+    width: 150px;
+    height: 180px;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+/********** LEARN Section *************/
+
+.learning-wrapper {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  z-index: 5;
+}
+
+.Video-Play {
+  width: 294px;
+  height: 226px;
+  cursor: pointer;
+}
+
+/*  */
+
+/* learning content Section */
+
+.learing-content {
+  width: 40%;
+}
+
+.count-section-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.count-Students {
+  text-align: center;
+  font-weight: bold;
+  color: #ffba00;
+}
+
+.count-Courses {
+  text-align: center;
+  font-weight: bold;
+  color: #ff5f72;
+}
+
+.count-Video {
+  text-align: center;
+  font-weight: bold;
+  color: #43cb83;
+}
+
+/* service section media quary  */
+
+@media only screen and (max-width: 767px) {
+  .learning-wrapper {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+  .Video-Play {
+    width: 160px;
+    height: 140px;
+    margin-top: 100px;
+    cursor: pointer;
+  }
+  .learing-content {
+    width: 100%;
+    height: 330px;
+  }
+}
+
+/****** FORM Sectiom  ******/
+
+.form-wrapper {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  margin-top: 120px;
+  background: url("../image/formbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.content-item {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+.form-item {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  left: 53%;
+  transform: translateY(-20%);
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 20px 0.5px #d3d2d2;
+  border-radius: 8px;
+}
+
+.bgimg {
+  background-size: contain;
+  background-image: url(../image/bg-right.png);
+  background-repeat: no-repeat;
+  background-position: left 60px bottom 150px;
+}
+
+.singup-form {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 6px 0px;
+  border: none;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #c7ecee;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  background: none;
+}
+
+.trams {
+  text-align: left;
+  font-size: 13px;
+}
+
+.apply-button-wrap {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.apply-button {
+  padding: 12px 17px;
+  border-radius: 20px;
+  border: none;
+  background-color: #56cf8d;
+  color: #f8f8fa;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.contact-us {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.form-item a {
+  text-align: left;
+  color: #1d232e;
+}
+
+/* service section media quary  */
+
+@media only screen and (max-width: 767px) {
+  .form-wrapper {
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: left;
+  }
+
+  .content-item {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background: url(../image/formbg.png);
+    background-size: cover;
+  }
+
+  .form-item {
+    width: 75%;
+    margin: auto;
+    top: 140%;
+    left: 1%;
+    display: block;
+  }
+}
+
+/*------------ UNIVERSITY NEWS Section -------------*/
+
+.news-content-wrapper {
+  width: 100%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.news-content-wrap {
+  width: 70%;
+  margin: auto;
+}
+
+.news-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+
+.react-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-section p {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.news-contant {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-gap: 50px;
+}
+
+.head-contant {
+  width: 500px;
+}
+
+.btn-btn button {
+  margin-top: 30px;
+  padding: 11px 35px;
+}
+
+/* UNIVERSITY NEWS Sectionmedia quary  */
+
+@media only screen and (max-width: 767px) {
+  .news-content-wrapper {
+    width: 100%;
+    margin-top: 600px;
+  }
+  .news-content-wrap{
+      width: 80%;
+      margin: auto;
+  }
+
+  .news-head {
+    width: 100%;
+  }
+
+  .head-contant {
+    width: 100%;
+    
+  }
+
+  .btn-btn {
+    width: 100%;
+  }
+  .btn-btn button {
+    width: 130px;
+    height: 45px;
+    border-radius: 25px;
+    
+  }
+}
+
+/*---------- FOOTER Section ---------*/
+
+/* footer section */
+
+.footer-wrapper {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #252c3a;
+}
+
+.footer-wrap {
+  width: 70%;
+  padding: 50px 0px;
+
+  margin: auto;
+  /* display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-gap: 20px;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+  color: #969595;
+}
+
+.footer-heading-title {
+  color: #ffff;
+}
+
+.footer-Support-wrap {
+  margin-left: 0px;
+}
+
+/* footer contact option */
+
+.footer-contact-wrap {
+  width: 250px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.footer-contact-wrap input[type="email"] {
+  width: 180px;
+  height: 26px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  background-color: #ffffff;
+}
+
+.footer-contact-wrap button {
+  cursor: pointer;
+  background-color: #ffc178;
+  color: #fff;
+  width: 750px;
+  height: 38px;
+  border: none;
+  outline: none;
+}
+
+/* footer copy right  */
+
+.footer-copy-wrapper {
+  width: 100%;
+  padding: px 0px;
+  background-color: #1d232e;
+}
+
+.footer-copy-wrap {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy-right-text {
+  color: #5f5f61;
+  margin-top: 10px;
+}
+
+.footer-bottom-section {
+  margin-top: 10px;
+}
+
+.footer-bottom-section ul li {
+  display: inline;
+  padding: 5px 10px;
+  color: #5f5f61;
+}
